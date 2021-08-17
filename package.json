@@ -8,7 +8,7 @@
   ],
   "scripts": {
     "start": "astro dev",
-    "start": "astro build"
+    "build": "astro build"
   },
   "dependencies": {
     "browser-env": "^3.3.0",
