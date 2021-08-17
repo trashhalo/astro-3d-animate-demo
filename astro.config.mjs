@@ -3,5 +3,5 @@ export default {
   devOptions: {
     port: 3000, // The port to run the dev server on.
   },
-  renderers: [],
+  renderers: ['@astrojs/renderer-solid'],
 };

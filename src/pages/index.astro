@@ -1,7 +1,7 @@
 ---
 import browserEnv from "browser-env";
 browserEnv();
-import Demo from "../components/Demo.astro"
+import Demo from "../components/Demo.jsx";
 ---
 <html>
 <head>
@@ -12,6 +12,6 @@ body {
 </style>
 </head>
 <body>
-<Demo />
+  <Demo client:load/>
 </body>
 </html>

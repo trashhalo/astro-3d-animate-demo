@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "main": "index.js",
   "license": "MIT",
-  "keywords": ["astro-component"],
+  "keywords": [
+    "astro-component"
+  ],
   "scripts": {
     "start": "astro dev"
   },
@@ -12,6 +14,7 @@
     "zdog": "^1.1.2"
   },
   "devDependencies": {
+    "@astrojs/renderer-solid": "^0.1.0",
     "astro": "^0.18.13"
   }
 }

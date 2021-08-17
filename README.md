@@ -1,10 +1,10 @@
-# Astro Zdog
+# Astro Partial Hydration of 3D Scenes
 
 ![](./Demo.png)
 
-Astro component for static rendering of [Zdog](https://zzz.dog/) 3D scenes. The 3D scenes are rendered to svg which requires no JS.
+I wanted to try and see if I could use [Astro](https://astro.build) to staticly paint a 3D scene using [Zdog](https://zzz.dog/). Then hydrate JS that animates the 3D scene.
 
-[Demo](./src/components/Demo.astro)
+[Demo](./src/components/Demo.jsx)
 
 ## browser-env
 
